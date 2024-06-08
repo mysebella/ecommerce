@@ -1,9 +1,10 @@
 {
   "expo": {
-    "name": "social-media",
-    "slug": "social-media",
+    "name": "ecommerce",
+    "slug": "ecommerce",
     "version": "1.0.0",
     "orientation": "portrait",
+    "scheme": "com.ecommerce",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -22,6 +23,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
